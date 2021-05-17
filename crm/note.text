@@ -1,0 +1,25 @@
+
+//jQuery ajax模板
+$.ajax({
+
+    url : "" ,
+    data : {
+
+    },
+    type : "post",
+    dataType : "json",
+    success : function (data) {
+
+    }
+
+})
+
+
+$(".time").datetimepicker({
+				minView: "month",
+				language:  'zh-CN',
+				format: 'yyyy-mm-dd',
+				autoclose: true,
+				todayBtn: true,
+				pickerPosition: "bottom-left"
+			});
